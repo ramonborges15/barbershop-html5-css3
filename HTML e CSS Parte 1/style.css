@@ -1,0 +1,51 @@
+body {
+    
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%; /* Imagem vai usar toda a largura da página. */
+}
+
+.principal {
+    background: #F2F2F2;
+    padding: 35px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.beneficios {
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-right: 15%;
+}
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: red; /* Vai pintar o texto dentro da tag <strong> que está dentro de <em> */
+}
+
+.itens {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 50%;
+}

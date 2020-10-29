@@ -1,0 +1,108 @@
+header {
+    background: #F2F2F2;
+    padding: 20px 0;
+}
+
+/*A classe .caixa deve centralizar o menu superior*/
+.caixa {
+    position: relative;
+    width: 940px;  /*Valor mágico na web para a maioria das telas*/
+    margin: 0 auto; /*centraliza a div .caixa*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none; /* remover o sublinhado do link*/
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+#banner {
+    width: 100%; /* Imagem vai usar toda a largura da página. */
+}
+
+.titulo-principal {
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 64%;
+    right: 580px;
+    color: white;
+}
+
+.principal {
+    background: #F2F2F2;
+    padding: 35px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.beneficios {
+    padding: 20px;
+}
+
+.beneficios-itens {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding-right: 15%;
+}
+
+.principal p {
+    text-align: center;
+    padding: 17px 0;
+    font-size: 18px;
+}
+
+#missao {
+    font-size: 20px;
+    font-style: italic;
+}
+
+em strong {
+    color: red; /* Vai pintar o texto dentro da tag <strong> que está dentro de <em> */
+    font-weight: bold;
+    font-style: italic;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("paginas/produtos/img/bg.jpg"); /* Inserindo imagem no fundo */
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}

@@ -1,0 +1,14 @@
+Uma dica muito importante é criar primeiramente o html da página, e depois inserir os estilos css.
+Por exemplo:
+    1. Criar html do menu superior.
+    2. Criar css do menu superior.
+    3. Criar html do corpo.
+    4. Criar css do corpo.
+    5. Criar html do footer.
+    6. Criar css do footer.
+
+Com o position: absolute, eu consigo posicionar meu elemento em qualquer lugar da página.
+
+Qual a melhor técnica para alinhar uma div ao centro? Utilizar o cálculo da margin automático.
+
+Espaçamento interno aumenta o conteúdo. Para limitar o aumento dentro de um tamanho fixo, utilizamos o box-sizing.

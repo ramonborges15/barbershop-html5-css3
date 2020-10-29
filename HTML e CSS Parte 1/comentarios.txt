@@ -1,0 +1,13 @@
+Temos as seguintes estruturas para um determinado elemento:
+    1. Altura (height).
+    2. Largura (width).
+    3. Espaçamentos (padding é o espaçamento interno, margin é o espaçamento externo).
+    4. Borda (border. A partir dele limitamos o que é interno e externo).
+
+<ul> significa unordered list
+<ol> significa ordered list
+<li> significa list item
+
+Por padrão, <ul> são display: block e <img> display: inline.
+
+É recomendado sempre utilizar classes ao invés de tags e ids.

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #F2F2F2;
+    padding: 20px 0;
+}
+
+/*A classe .caixa deve centralizar o menu superior*/
+.caixa {
+    position: relative;
+    width: 940px;  /*Valor mágico na web para a maioria das telas*/
+    margin: 0 auto; /*centraliza a div .caixa*/
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none; /* remover o sublinhado do link*/
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block; /*permite alterar tamanho do elemento*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover { /*Comportamento quando passo o mouse sobre o elemento.*/
+    border-color: #C78C19;
+}
+
+.produtos li:active { /*Comportamento quando eu clico sobre algo*/
+    border-color: green;
+}
+
+.produtos li:hover h2{ /*Quando passar o mouse sobre li, o conteudo de h2 terá a fonte aumentada.*/
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao {
+    font-size: 18px;
+}
+
+.produtos-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg"); /* Inserindo imagem no fundo */
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
